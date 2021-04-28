@@ -1,0 +1,181 @@
+/* popup */
+body {
+    background: #fff;
+    font-family: 'BitterRegular';
+}
+
+.popup
+{
+    width:600px;
+    float:left;
+    background:url(https://dsmwuevg6fec3.cloudfront.net/img/popup-bg.jpg) repeat;
+    overflow:hidden;
+    min-height: 320px;
+}
+.burchase-by-header
+{
+    background:#000;
+    width:100%;
+    display:block;
+    min-height:60px;
+    padding:10px 0;
+    margin-bottom: 4px;
+}
+.burchase-by-header img
+{
+    float:left;
+    margin:0 10px 0 10px;
+    padding:0;
+}
+.burchase-by-header h3
+{
+    font-size:18px;
+    color:#f16221;
+    margin:0;
+    line-height:26px;
+    margin:0;
+    padding:0 45px 0 0;
+    font-family: 'BitterBold';
+}
+
+.popup-album
+{
+    width:232px;
+    height:232px;
+    float:left;
+    position:relative;
+}
+.popup-album img
+{
+    width:100%;
+}
+.popup-album .caption
+{
+    position:absolute;
+    top:184px;
+    background:url(https://dsmwuevg6fec3.cloudfront.net/img/transparant-bg.png) repeat;
+    width:100%;
+}
+.popup-album .caption p
+{
+    padding-left:10px;
+}
+.popup-album .caption p span
+{
+    color:#fa6200;
+    display:block;
+}
+.popup-album .caption p span.title
+{
+    color:#fff;
+}
+
+.wallet-amount-details
+{
+    /*float:left;
+    width:368px;*/
+    padding:20px 0 0;
+}
+ul.wallet-amount
+{
+    margin:0;
+    list-style:none;
+}
+ul.wallet-amount li
+{
+    float:left;
+    width:97%;
+    margin:10px 0;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+ul.wallet-amount li span.list-album
+{
+    float:left;
+
+}
+ul.wallet-amount li span.price-icon, .price-icon-orange
+{
+    float:right;
+}
+ul.wallet-amount li span.price-icon
+{
+    background: url("https://dsmwuevg6fec3.cloudfront.net/img/popup/download-play-btn.png") no-repeat scroll -40px 0 transparent;
+    display: block;
+    height: 16px;
+    padding-left:10px;
+}
+ul.wallet-amount li span.price-icon-orange
+{
+    background: url("https://dsmwuevg6fec3.cloudfront.net/img/popup/orange-rupies-icon.png") no-repeat scroll 0 3px transparent;
+    display: block;
+    height: 16px;
+    padding-left:10px;
+}
+.transc
+{
+    color:#FA6200;
+}
+
+.add-cart-box
+{
+    width:44%;
+    float:left;
+    text-align:center;
+    padding:18px;
+}
+.add-cart-box h3
+{
+    color: #000000;
+    font-family: 'BitterBold';
+    font-size: 17px;
+    text-transform: uppercase;
+    margin:0;
+    line-height:25px;
+}
+.add-cart-box span
+{
+    font-size:11px;
+    color:#000;
+    display:block;
+    line-height:14px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.add-cart-box span.extra
+{
+    color: #F4530B;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding:5px 0;
+}
+.add-cart-box {
+    margin: 10px 0;
+width: 43%;
+}
+.add-cart-box.cart-box-left {
+    border-right: 1px solid #ccc;
+}
+#fancybox-content > div {
+    min-height: 330px !important;
+    overflow: visible !important;
+}
+.borderRight {
+    border-right: 1px solid #cfcfcf;
+    margin-right: -1px;
+}
+
+span.price-icon-orange
+{
+    background: url("https://dsmwuevg6fec3.cloudfront.net/img/popup/orange-rupies-icon.png") no-repeat scroll 0 3px transparent;
+    display: block;
+    height: 16px;
+    padding-left:10px;
+    color: #F4530B;
+}
+
+span.wallet_text{
+    width: 123px;
+    display: inline-block;
+}
+
+/* popup */

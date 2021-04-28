@@ -1,0 +1,23 @@
+[29-Dec-2013 16:14:45] PHP Warning:  require_once(php/connect.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 2
+[29-Dec-2013 16:14:45] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'php/connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 2
+[29-Dec-2013 16:15:40] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 7
+[29-Dec-2013 16:15:41] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 7
+[29-Dec-2013 16:15:42] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 7
+[29-Dec-2013 16:16:59] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 7
+[29-Dec-2013 16:27:23] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 7
+[29-Dec-2013 16:38:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 7
+[29-Dec-2013 16:38:47] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 7
+[29-Dec-2013 16:39:06] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 7
+[29-Dec-2013 16:39:45] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 7
+[29-Dec-2013 16:40:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 7
+[29-Dec-2013 16:41:46] PHP Warning:  require_once(php/connect.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 2
+[29-Dec-2013 16:41:46] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'php/connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 2
+[29-Dec-2013 16:42:21] PHP Warning:  require_once(php/connect.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 2
+[29-Dec-2013 16:42:21] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'php/connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 2
+[30-Dec-2013 09:37:44] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/borebah6/public_html/others/volunteer/php/sendMailEventDetails.php on line 29
+[30-Dec-2013 09:40:13] PHP Parse error:  syntax error, unexpected '}' in /home/borebah6/public_html/others/volunteer/php/sendMailEventDetails.php on line 44
+[30-Dec-2013 10:24:06] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/borebah6/public_html/others/volunteer/php/sendMailEventDetails.php on line 29
+[04-Jan-2014 20:00:04] PHP Parse error:  syntax error, unexpected T_ECHO in /home/borebah6/public_html/others/volunteer/php/sendMailEventDetails.php on line 7
+[11-Jan-2014 09:16:25] PHP Parse error:  syntax error, unexpected '<' in /home/borebah6/public_html/others/volunteer/php/wantToVolunteer.php on line 13
+[12-Apr-2014 12:25:48 Etc/GMT] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting ']' in /home/borebah6/public_html/others/volunteer/php/email_valid.php on line 8
+[12-Apr-2014 12:26:33 Etc/GMT] PHP Parse error:  syntax error, unexpected $end in /home/borebah6/public_html/others/volunteer/php/email_valid.php on line 9

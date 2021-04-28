@@ -1,0 +1,136 @@
+.ValidationErrors {
+    color: red;
+    clear: both;
+}
+
+.hidePlayer {
+    display: none;
+}
+
+.registration {
+    padding-bottom: 25px;
+    display: block;
+}
+
+.burchase-by-header h3.payment_heading_text {
+    margin-left: 10px;
+}
+
+.email_table tr, .email_table td {
+    border: none;
+}
+
+.email_table td {
+    text-align: center;
+}
+
+.registration_text {
+    font-size: 10px;
+    color: #FA6200;
+    padding-top: 27px;
+    display: block;
+}
+
+span.rsSymbol {
+    background: url(../img/confirmation_rs-iocn.jpg) no-repeat 0 1px;
+    height: 14px;
+    width: 10px;
+    display: inline-block;
+}
+
+ul.netIcons li a {
+    color: white;
+    font-size: 11px;
+    line-height: 21px;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding-right: 5px;
+}
+
+ul.netIcons li a:hover {
+    color: #F26322;
+}
+
+ul.netIcons li {
+    color: white;
+}
+
+#flashMessage {
+    background: #454545;
+    color: #fe5f17;
+    margin-top: 38px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 15px;
+    text-shadow: none;
+}
+
+.flashMessage-section {
+    margin-top: 0;
+}
+
+.flashMessage-section-top {
+    margin-top: 39px;
+}
+
+.revenue-head {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.download-now {
+    font-size: 12px;
+}
+
+.artist-dashboard .control-group {
+    width: 250px;
+    float: left;
+}
+
+.artist-dashboard .control-group .ValidationErrors {
+    display: block;
+}
+
+div.song_of_week_cursor {
+    cursor: default !important;
+}
+
+.gap {
+    padding-bottom: 20px;
+}
+
+.font13 {
+    font-size: 13px
+}
+
+.font14 {
+    font-size: 14px
+}
+
+.bootstrap-blue {
+    color: #08C;
+}
+
+.paging {
+    float: right;
+}
+
+#submit-dashboard {
+    float: left;
+    margin-top: 20px;
+
+}
+
+.form-actions a.btn-warning {
+    margin-left: 10px;
+}
+
+td.td_center, th.td_center {
+    text-align: center;
+}
+
+.unavailable_song {
+    color: gray;
+    font-size: 12px;
+}

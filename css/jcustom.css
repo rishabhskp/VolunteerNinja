@@ -1,0 +1,290 @@
+* {
+    margin:0;
+    padding:0;
+}
+div.jp-video-270p {
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    left: 0;
+}
+div.jp-interface {
+    position: relative;
+    width: auto;
+    background-color: #3A2A45;
+    margin:0 140px 0 161px;
+}
+.playerLeft {
+    float: left;
+    margin-left: -225px;
+}
+div.jp-controls-holder {
+    clear: both;
+    margin:0px;
+    float:left;
+    position: relative;
+    overflow: hidden;
+    margin-right:0;
+    width:220px;
+}
+div.jp-interface ul.jp-controls {
+    /*background: url("skin/pink.flag/jplayer_play_stop_btn.png") 0 0 no-repeat;*/
+    background: none;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    width: 150px;
+    height: 35px;
+    border:0px solid #000;
+    border-radius:0px;
+}
+div.jp-video ul.jp-controls {
+    margin: 6px 0 0 12px;
+    float: left;
+    display: inline;
+}
+div.jp-video .jp-volume-bar {
+    position: static;
+    float:none;
+    margin-top:18px;
+}
+.playerRight {
+    margin-right: -130px;
+    float:right;
+    width:130px;
+}
+.playerCenter {
+    float:left;
+    width:100%;
+    /*background:url(skin/music_player_seperator.jpg) right top no-repeat;*/
+    padding:5px 0 0 0;
+    height:38px;
+    position: relative;
+}
+.clr {
+    clear:both;
+}
+.jp-gui {
+    /*padding-bottom: 10px;*/
+}
+.player-separator {
+    width: 1px;
+    background: none repeat scroll 0 0 rgba(40, 40, 40, 0.6);
+    border-right: solid 1px #454545;
+    border-left: solid 1px #454545;
+    height: 48px;
+    float: left;
+}
+div.jp-video .jp-progress {
+    border-top: 0px solid #180A1F;
+    border-bottom: 0px solid #554560;
+    width: auto;
+    background-image: none;
+    padding: 0;
+/*    width:90%;*/
+    margin: 5px 54px 0;
+    float:none;
+}
+.playerRight .jp-controls {
+    position:relative;
+}
+div.jp-video .playerRight ul.jp-controls {
+    width:20px;
+    height: 26px;
+    border:0;
+    margin:13px 0 0 10px;
+}
+/*player color*/
+div.jp-audio, div.jp-video {
+    color: white;
+    border-top: 1px solid #554461;
+    border-left: 1px solid #180A1F;
+    border-right: 1px solid #180A1F;
+    border-bottom: 1px solid #180A1F;
+    background: #191819 url(skin/music_player_bg.jpg) repeat-x;
+    z-index: 9999;
+    height: 45px;
+}
+div.jp-interface {
+    position: relative;
+    width: auto;
+    background-color: transparent;
+    margin: 0 140px 0 225px;
+    height: 48px;
+}
+.jp-seek-bar {
+    height: 9px;
+    padding-right: 0px;
+    position: relative;
+    background:none;
+}
+.jp-play-bar, .jp-seek-bar {
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.6) inset;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.6) inset;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.6) inset;
+}
+.jp-seek-bar {
+    -moz-border-radius: 9px;
+    background: #232223;
+    background: -moz-linear-gradient(center top, #232223 0, #313031 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from( #232223), to( #313031));
+    border-bottom: 1px solid #686768;
+    border-radius: 9px;
+    border-top: 1px solid #181718;
+    cursor: pointer;
+}
+.jp-play-bar {
+    background-image:none;
+    -moz-border-radius: 9px 0 0 9px;
+    background-color: rgba(90, 90, 90, 0.4);
+    border-radius: 9px 0 0 9px;
+}
+.jp-play-bar {
+    display: block;
+    height: 9px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    overflow:visible;
+}
+#pb-start, #pb-end {
+    display:block;
+    height:9px;
+    position:absolute;
+    width:3px
+}
+#pb-start {
+    left:-3px
+}
+#pb-end {
+    right:-9px;
+    width:9px
+}
+#pb-end {
+    -moz-border-radius: 6px;
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+    background: #F8F8F8;
+    background: -moz-linear-gradient(center top, #F8F8F8 0, silver 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F8F8F8), color-stop(1, silver));
+    border-radius: 6px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .6);
+}
+div.jp-video .jp-volume-bar {
+    border-right: 0px solid black;
+    padding:0;
+}
+.jp-volume-bar {
+    background-image:none;
+    background: #444;
+    cursor: pointer;
+    height:10px;
+    border-right:0;
+}
+.jp-volume-bar-value {
+    background-image:none;
+    background: #fa6200;
+    height:10px;
+}
+.jp-playlist {
+    position: absolute;
+    bottom: 46px;
+    min-width: 371px;
+    background: #333333;
+    left: 375px;
+
+}
+.jp-playlist .currentPlayList{
+    font-size:12px;
+    padding:2px 10px;
+    display:block;
+    min-height:15px;
+    line-height: 22px;
+    cursor: pointer;
+}
+.currentPlayList span {
+    width:12px;
+    height:11px;
+    display:block;
+    background:url(skin/pink.flag/playShowHideArrow.png) no-repeat;
+    float:right;
+}
+.jp-playlist .openClose {
+    background: url(skin/pink.flag/close-icon.png) 1px 1px no-repeat;
+    height:8px;
+    width: 10px;
+    float: right;
+    margin: 10px 10px 0px 10px;
+}
+
+/**/
+a.oklisten-logo
+{
+    background:url(skin/music_player_oklisten-logo.jpg) no-repeat;
+    width:58px;
+    height:48px;
+    text-indent:-10000px;
+    float:left;
+
+}
+.now-playing {
+    display: block;
+    margin: 0 0 0 20px;
+    overflow: hidden;
+    position: relative;
+    right: 0px;
+    font-size: 11px;
+
+}
+.now-playing strong {
+    float: left;
+    left: 2px;
+    margin-right: 9px;
+    position: relative;
+    top: 0px;
+    color: #999999;
+}
+.playListBtn {
+    background: url(skin/pink.flag/playListBtn.png) no-repeat;
+    width: 17px;
+    height: 17px;
+    float: left;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.now-playing-text {
+    cursor: pointer;
+    color: #dddddd;
+}
+.player_pin {
+    background: url(skin/pink.flag/player_pin_icon.png) no-repeat right center;
+    display: block;
+    height: 20px;
+    margin-top:2px;
+    cursor: pointer;
+
+}
+.jp-current-time, .jp-duration {
+width: 34px;
+/*font-size: .6em;*/
+font-size: 11px;
+color: white;
+margin-top: 6px;
+position: absolute;
+top: 18px;
+left: 0;
+}
+.jp-duration {
+    top: 18px;
+    left: auto;
+    right: 0;
+}
+div.jp-type-playlist div.jp-playlist a:hover, div.jp-type-playlist div.jp-playlist li:hover a {
+color: #FA6200;
+}
+div.jp-audio, div.jp-video {
+font-size: 1em;
+font-family: Tahoma, Geneva, sans-serif;
+line-height: 1.6;
+color: white;
+}

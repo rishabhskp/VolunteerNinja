@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-fixed-top .container > .row > .pull-right {
+    margin-right: 0px;
+}
+
+.navbar-fixed-top .container {
+    width: 100%;
+}
